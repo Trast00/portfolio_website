@@ -154,12 +154,12 @@ nav {
 }
 
 .catagories {
-  display: flex;
-  flex-wrap: wrap;
   margin: 10px 0;
 }
 
 .catagories > li {
+  display: inline-block;
+  float: left;
   padding: 8px;
   list-style: none;
   color: #6070ff;
